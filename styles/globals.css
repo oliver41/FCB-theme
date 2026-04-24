@@ -15,3 +15,25 @@ h6 {
 body {
   font-family: var(--font-secondary);
 }
+
+/* Dark mode table support */
+.dark table {
+  background: #1a1a2e;
+}
+.dark table thead tr {
+  background: #dc052d;
+}
+.dark table tbody tr {
+  border-bottom-color: #2a2a3e;
+}
+.dark table td {
+  color: #e0e0e0;
+}
+.dark table .bold-row td {
+  background: #2a2a3e;
+  color: #fff;
+}
+.dark table .total-row td {
+  background: #1a2744;
+  color: #fff;
+}
