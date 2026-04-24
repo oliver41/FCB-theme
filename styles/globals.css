@@ -16,6 +16,11 @@ body {
   font-family: var(--font-secondary);
 }
 
+/* Fix table header colors - prevent prose from overriding inline styles */
+.prose thead th {
+  color: inherit !important;
+}
+
 /* Dark mode table support */
 .dark table {
   background: #1a1a2e;
