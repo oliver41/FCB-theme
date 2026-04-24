@@ -8,6 +8,15 @@ exports.COLOR_THEMES = {
       'gradient-4': '#8785FF',
     },
   },
+  fcbayern: {
+  colors: {
+    primary: '#dc052d',
+    'gradient-1': '#dc052d',
+    'gradient-2': '#8b0000',
+    'gradient-3': '#0a1628',
+    'gradient-4': '#dc052d',
+   },
+  },
   bejamas: {
     colors: {
       primary: '#FF8585',
